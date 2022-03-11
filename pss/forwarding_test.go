@@ -9,11 +9,11 @@ import (
 	ethCrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/p2p/protocols"
-	"github.com/ethersphere/swarm/pot"
-	"github.com/ethersphere/swarm/pss/message"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/pot"
+	"github.com/holisticode/swarm/pss/message"
 )
 
 type testCase struct {

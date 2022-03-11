@@ -30,7 +30,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethCrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/log"
 )
 
 var createPadding = true

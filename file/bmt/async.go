@@ -21,7 +21,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ethersphere/swarm/bmt"
+	"github.com/holisticode/swarm/bmt"
 )
 
 // NewAsyncWriter extends Hasher with an interface for concurrent segment.GetSection() writes

@@ -26,8 +26,8 @@ import (
 	"strings"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/storage/mock"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/storage/mock"
 	"github.com/rs/cors"
 )
 

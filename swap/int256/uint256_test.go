@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/state"
 )
 
 // the following test cases cover a range of values to be used to create uint256 variables

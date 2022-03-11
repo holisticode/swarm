@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/storage"
 )
 
 func manifest(paths ...string) (manifestReader storage.LazySectionReader) {

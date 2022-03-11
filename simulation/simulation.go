@@ -17,8 +17,8 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network"
 	"golang.org/x/sync/errgroup"
 )
 

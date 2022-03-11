@@ -15,9 +15,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/sctx"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/sctx"
+	"github.com/holisticode/swarm/storage"
 	"golang.org/x/crypto/scrypt"
 	"golang.org/x/crypto/sha3"
 )

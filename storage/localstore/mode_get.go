@@ -23,8 +23,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/shed"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/shed"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

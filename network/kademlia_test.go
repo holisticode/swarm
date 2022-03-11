@@ -26,9 +26,9 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/network/capability"
-	"github.com/ethersphere/swarm/p2p/protocols"
-	"github.com/ethersphere/swarm/pot"
+	"github.com/holisticode/swarm/network/capability"
+	"github.com/holisticode/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/pot"
 )
 
 func init() {

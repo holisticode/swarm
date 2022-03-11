@@ -23,7 +23,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/testutil"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

@@ -28,7 +28,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/log"
 )
 
 var (

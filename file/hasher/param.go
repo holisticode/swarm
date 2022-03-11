@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ethersphere/swarm/file"
+	"github.com/holisticode/swarm/file"
 )
 
 // defines the boundaries of the hashing job and also contains the hash factory function of the job

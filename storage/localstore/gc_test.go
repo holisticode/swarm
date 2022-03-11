@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/shed"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/shed"
 )
 
 // TestDB_collectGarbageWorker tests garbage collection runs

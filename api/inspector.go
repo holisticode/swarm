@@ -24,12 +24,12 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/stream"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/localstore"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/stream"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/localstore"
 )
 
 const InspectorIsPullSyncingTolerance = 15 * time.Second

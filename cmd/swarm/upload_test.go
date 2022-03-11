@@ -31,8 +31,8 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/log"
-	swarmapi "github.com/ethersphere/swarm/api/client"
-	"github.com/ethersphere/swarm/testutil"
+	swarmapi "github.com/holisticode/swarm/api/client"
+	"github.com/holisticode/swarm/testutil"
 )
 
 func TestSwarmUp(t *testing.T) {

@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/state"
 )
 
 type testCase struct {

@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/storage/encryption"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/storage/encryption"
 )
 
 func TestHasherStore(t *testing.T) {

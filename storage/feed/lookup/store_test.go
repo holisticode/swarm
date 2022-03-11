@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/storage/feed/lookup"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/storage/feed/lookup"
 )
 
 // Data is a struct to keep a value to store/retrieve during testing

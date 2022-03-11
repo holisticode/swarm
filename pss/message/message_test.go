@@ -8,7 +8,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/pss/message"
+	"github.com/holisticode/swarm/pss/message"
 )
 
 type messageFixture struct {

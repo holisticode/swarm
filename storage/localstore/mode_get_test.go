@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/chunk"
 )
 
 // TestModeGetRequest validates ModeGetRequest index values on the provided DB.

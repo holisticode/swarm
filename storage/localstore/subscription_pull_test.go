@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/shed"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/shed"
 )
 
 // TestDB_SubscribePull_first is a regression test for the first=false (from-1) bug

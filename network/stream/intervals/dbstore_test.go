@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/state"
 )
 
 // TestDBStore tests basic functionality of DBStore.

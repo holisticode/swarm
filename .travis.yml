@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/ethersphere/swarm
+go_import_path: github.com/holisticode/swarm
 sudo: false
 env:
   global:

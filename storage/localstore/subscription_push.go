@@ -24,8 +24,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/shed"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/shed"
 )
 
 // SubscribePush returns a channel that provides storage chunks with ordering from push syncing index.

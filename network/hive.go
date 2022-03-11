@@ -25,9 +25,9 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network/capability"
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network/capability"
+	"github.com/holisticode/swarm/state"
 )
 
 const connectionsKey = "conns"

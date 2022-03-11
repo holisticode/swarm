@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/p2p/protocols"
 )
 
 // Generic ping protocol implementation for

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/pss/internal/ttlset"
+	"github.com/holisticode/swarm/pss/internal/ttlset"
 	"github.com/tilinna/clock"
 )
 

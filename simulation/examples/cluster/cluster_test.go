@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethersphere/swarm/internal/build"
-	"github.com/ethersphere/swarm/simulation"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/internal/build"
+	"github.com/holisticode/swarm/simulation"
+	"github.com/holisticode/swarm/testutil"
 )
 
 var (
@@ -59,7 +59,7 @@ func TestCluster(t *testing.T) {
 		if !simulation.IsDockerAvailable(config.DaemonAddr) {
 			t.Skip("docker is not available, skipping test")
 		}
-		config.DockerImage = "ethersphere/swarm:edge"
+		config.DockerImage = "holisticode/swarm:edge"
 		adapter, err := simulation.NewDockerAdapter(config)
 		if err != nil {
 			t.Fatalf("could not create docker adapter: %v", err)
@@ -78,7 +78,7 @@ func TestCluster(t *testing.T) {
 			t.Skip("kubernetes is not available, skipping test")
 		}
 		config.Namespace = "simulation-test"
-		config.DockerImage = "ethersphere/swarm:edge"
+		config.DockerImage = "holisticode/swarm:edge"
 		adapter, err := simulation.NewKubernetesAdapter(config)
 		if err != nil {
 			t.Fatalf("could not create kubernetes adapter: %v", err)

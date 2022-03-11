@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/chunk"
 )
 
 // Has returns true if the chunk is stored in database.

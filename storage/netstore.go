@@ -26,16 +26,16 @@ import (
 
 	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/network/timeouts"
-	"github.com/ethersphere/swarm/spancontext"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/network/timeouts"
+	"github.com/holisticode/swarm/spancontext"
 	lru "github.com/hashicorp/golang-lru"
 	olog "github.com/opentracing/opentracing-go/log"
 	"github.com/syndtr/goleveldb/leveldb"
 	"golang.org/x/sync/singleflight"
 
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/log"
 )
 
 // asymmetrical key exchange between two directly connected peers

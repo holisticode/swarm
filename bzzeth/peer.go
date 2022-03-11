@@ -22,11 +22,11 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/chunk"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/p2p/protocols"
 )
 
 // Peer extends p2p/protocols Peer and represents a conrete protocol connection

@@ -21,8 +21,8 @@ import (
 	"github.com/docker/docker/client"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm"
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm"
+	"github.com/holisticode/swarm/log"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
@@ -50,7 +50,7 @@ type KubernetesAdapterConfig struct {
 	// from a Dockerfile and a context directory
 	BuildContext *KubernetesBuildContext `json:"build,omitempty"`
 	// DockerImage points to an existing docker image
-	// e.g. ethersphere/swarm:latest
+	// e.g. holisticode/swarm:latest
 	DockerImage string `json:"image,omitempty"`
 }
 

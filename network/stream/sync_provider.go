@@ -28,11 +28,11 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/timeouts"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/timeouts"
+	"github.com/holisticode/swarm/storage"
 )
 
 const (

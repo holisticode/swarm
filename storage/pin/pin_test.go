@@ -28,13 +28,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethersphere/swarm/api"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/state"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/feed"
-	"github.com/ethersphere/swarm/storage/localstore"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/api"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/state"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/feed"
+	"github.com/holisticode/swarm/storage/localstore"
+	"github.com/holisticode/swarm/testutil"
 )
 
 // TestPinRawUpload pins a RAW file and unpin it multiple times

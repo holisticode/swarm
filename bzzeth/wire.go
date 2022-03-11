@@ -19,8 +19,8 @@ package bzzeth
 import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/p2p/protocols"
 )
 
 // Spec is the protocol spec for bzzeth

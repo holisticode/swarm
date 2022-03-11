@@ -27,8 +27,8 @@ import (
 	"sync"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/storage"
 )
 
 const maxParallelFiles = 5

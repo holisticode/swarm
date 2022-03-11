@@ -23,7 +23,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/bitutil"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/storage"
 )
 
 // TopicLength establishes the max length of a topic string

@@ -32,11 +32,11 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethersphere/swarm/chunk"
-	chunktesting "github.com/ethersphere/swarm/chunk/testing"
-	"github.com/ethersphere/swarm/sctx"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/chunk"
+	chunktesting "github.com/holisticode/swarm/chunk/testing"
+	"github.com/holisticode/swarm/sctx"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/testutil"
 	rns "github.com/rnsdomains/rns-go-lib/resolver"
 )
 

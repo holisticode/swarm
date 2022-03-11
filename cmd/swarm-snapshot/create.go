@@ -33,8 +33,8 @@ import (
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p/simulations"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/simulation"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/simulation"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

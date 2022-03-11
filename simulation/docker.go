@@ -13,8 +13,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm"
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm"
+	"github.com/holisticode/swarm/log"
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
@@ -44,7 +44,7 @@ type DockerAdapterConfig struct {
 	// from a Dockerfile and a context directory
 	BuildContext *DockerBuildContext `json:"build,omitempty"`
 	// DockerImage points to an existing docker image
-	// e.g. ethersphere/swarm:latest
+	// e.g. holisticode/swarm:latest
 	DockerImage string `json:"image,omitempty"`
 	// DaemonAddr is the docker daemon address
 	DaemonAddr string `json:"daemonAddr,omitempty"`

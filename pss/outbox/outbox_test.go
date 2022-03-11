@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/pss/message"
-	"github.com/ethersphere/swarm/pss/outbox"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/pss/message"
+	"github.com/holisticode/swarm/pss/outbox"
 	"github.com/tilinna/clock"
 )
 

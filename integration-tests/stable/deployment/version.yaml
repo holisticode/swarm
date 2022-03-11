@@ -1,14 +1,14 @@
 smoke:
   image:
-    repository: ethersphere/swarm
+    repository: holisticode/swarm
     tag: edge-alltools
 
 swarm:
   image:
-    repository: ethersphere/swarm
+    repository: holisticode/swarm
     tag: edge-alltools
 
 bootnode:
   image:
-    repository: ethersphere/swarm
+    repository: holisticode/swarm
     tag: edge-alltools

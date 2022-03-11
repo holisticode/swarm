@@ -31,9 +31,9 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/storage/mock"
-	"github.com/ethersphere/swarm/storage/mock/db"
-	"github.com/ethersphere/swarm/storage/mock/mem"
+	"github.com/holisticode/swarm/storage/mock"
+	"github.com/holisticode/swarm/storage/mock/db"
+	"github.com/holisticode/swarm/storage/mock/mem"
 )
 
 // TestHandler_memGlobalStore runs a set of tests

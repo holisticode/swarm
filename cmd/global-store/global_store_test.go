@@ -27,7 +27,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rpc"
-	mockRPC "github.com/ethersphere/swarm/storage/mock/rpc"
+	mockRPC "github.com/holisticode/swarm/storage/mock/rpc"
 )
 
 // TestHTTP_InMemory tests in-memory global store that exposes

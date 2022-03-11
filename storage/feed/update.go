@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/chunk"
 )
 
 // ProtocolVersion defines the current version of the protocol that will be included in each update message

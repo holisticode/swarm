@@ -23,8 +23,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/feed/lookup"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/feed/lookup"
 )
 
 // Request represents a request to sign or signed feed update message

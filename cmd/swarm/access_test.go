@@ -34,9 +34,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/crypto/ecies"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethersphere/swarm/api"
-	swarmapi "github.com/ethersphere/swarm/api/client"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/api"
+	swarmapi "github.com/holisticode/swarm/api/client"
+	"github.com/holisticode/swarm/testutil"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -573,7 +573,7 @@ func testACT(t *testing.T, cluster *testCluster, bogusEntries int) {
 }
 
 // TestKeypairSanity is a sanity test for the crypto scheme for ACT. it asserts the correct shared secret according to
-// the specs at https://github.com/ethersphere/swarm-docs/blob/eb857afda906c6e7bb90d37f3f334ccce5eef230/act.md
+// the specs at https://github.com/holisticode/swarm-docs/blob/eb857afda906c6e7bb90d37f3f334ccce5eef230/act.md
 func TestKeypairSanity(t *testing.T) {
 	salt := make([]byte, 32)
 	if _, err := io.ReadFull(rand.Reader, salt); err != nil {

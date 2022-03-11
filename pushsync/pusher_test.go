@@ -30,10 +30,10 @@ import (
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/chunk"
-	chunktesting "github.com/ethersphere/swarm/chunk/testing"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/chunk"
+	chunktesting "github.com/holisticode/swarm/chunk/testing"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/testutil"
 )
 
 func init() {

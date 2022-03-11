@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/chunk"
 )
 
 // TestModeGetMulti stores chunks and validates that GetMulti

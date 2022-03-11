@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

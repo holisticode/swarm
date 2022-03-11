@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/stream/intervals"
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/stream/intervals"
+	"github.com/holisticode/swarm/state"
 )
 
 // Peer is the Peer extension for the streaming protocol

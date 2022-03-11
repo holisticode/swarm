@@ -24,7 +24,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethersphere/swarm/spancontext"
+	"github.com/holisticode/swarm/spancontext"
 	"github.com/opentracing/opentracing-go"
 )
 

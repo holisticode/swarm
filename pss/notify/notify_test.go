@@ -14,12 +14,12 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/p2p/simulations"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/pss"
-	"github.com/ethersphere/swarm/pss/crypto"
-	"github.com/ethersphere/swarm/pss/message"
-	"github.com/ethersphere/swarm/state"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/pss"
+	"github.com/holisticode/swarm/pss/crypto"
+	"github.com/holisticode/swarm/pss/message"
+	"github.com/holisticode/swarm/state"
+	"github.com/holisticode/swarm/testutil"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/log"
-	swarmlog "github.com/ethersphere/swarm/log"
+	swarmlog "github.com/holisticode/swarm/log"
 	"github.com/mattn/go-colorable"
 )
 

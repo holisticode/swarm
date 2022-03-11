@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/network/capability"
+	"github.com/holisticode/swarm/network/capability"
 )
 
 // TestBzzAddrRLPSerialzation verifies reverisibility of RLP serialization of BzzAddr

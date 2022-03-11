@@ -7,8 +7,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethersphere/swarm/p2p/protocols"
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/state"
 )
 
 type peerChequesTestCase struct {

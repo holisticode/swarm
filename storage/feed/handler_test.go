@@ -27,11 +27,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/feed/lookup"
-	"github.com/ethersphere/swarm/storage/localstore"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/feed/lookup"
+	"github.com/holisticode/swarm/storage/localstore"
+	"github.com/holisticode/swarm/testutil"
 )
 
 var (

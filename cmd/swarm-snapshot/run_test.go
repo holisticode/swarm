@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethersphere/swarm/internal/cmdtest"
+	"github.com/holisticode/swarm/internal/cmdtest"
 )
 
 func init() {

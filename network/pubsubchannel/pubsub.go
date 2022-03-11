@@ -20,7 +20,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/log"
 )
 
 // PubSubChannel represents a pubsub system where subscriber can .Subscribe() and publishers can .Publish() or .Close().

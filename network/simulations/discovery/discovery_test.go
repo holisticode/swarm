@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/testutil"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
@@ -36,8 +36,8 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/p2p/simulations"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/state"
 )
 
 // serviceName is used with the exec adapter so the exec'd binary knows which

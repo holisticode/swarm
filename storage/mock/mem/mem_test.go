@@ -19,7 +19,7 @@ package mem
 import (
 	"testing"
 
-	"github.com/ethersphere/swarm/storage/mock/test"
+	"github.com/holisticode/swarm/storage/mock/test"
 )
 
 // TestGlobalStore is running test for a GlobalStore

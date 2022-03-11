@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
 )
 
 // TestProtocol tests the push sync protocol

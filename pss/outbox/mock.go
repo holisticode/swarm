@@ -16,8 +16,8 @@
 package outbox
 
 import (
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/pss/message"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/pss/message"
 )
 
 const (

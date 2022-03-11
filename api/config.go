@@ -27,11 +27,11 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/contracts/ens"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/pss"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/swap"
+	"github.com/holisticode/swarm/contracts/ens"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/pss"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/swap"
 )
 
 const (

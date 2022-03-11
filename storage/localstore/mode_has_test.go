@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/chunk"
 )
 
 // TestHas validates that Has method is returning true for

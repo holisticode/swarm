@@ -19,7 +19,7 @@ package capability
 import (
 	"fmt"
 
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/log"
 )
 
 // API abstracts RPC API access to capabilities controls

@@ -21,7 +21,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ethersphere/swarm/api/http/langos"
+	"github.com/holisticode/swarm/api/http/langos"
 )
 
 // TestBufferedReadSeeker runs a series of reads and seeks on

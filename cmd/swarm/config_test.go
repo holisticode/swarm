@@ -33,10 +33,10 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm"
-	"github.com/ethersphere/swarm/api"
-	"github.com/ethersphere/swarm/swap"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm"
+	"github.com/holisticode/swarm/api"
+	"github.com/holisticode/swarm/swap"
+	"github.com/holisticode/swarm/testutil"
 )
 
 func TestConfigDump(t *testing.T) {

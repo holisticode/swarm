@@ -31,9 +31,9 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethersphere/swarm/api/client"
-	swarm "github.com/ethersphere/swarm/api/client"
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/api/client"
+	swarm "github.com/holisticode/swarm/api/client"
+	"github.com/holisticode/swarm/chunk"
 	"github.com/vbauerster/mpb"
 	"github.com/vbauerster/mpb/decor"
 

@@ -27,10 +27,10 @@ import (
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network/capability"
-	"github.com/ethersphere/swarm/p2p/protocols"
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network/capability"
+	"github.com/holisticode/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/state"
 )
 
 var (

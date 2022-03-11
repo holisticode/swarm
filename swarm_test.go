@@ -31,10 +31,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm/api"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/sctx"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/api"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/sctx"
+	"github.com/holisticode/swarm/testutil"
 )
 
 // TestNewSwarm validates Swarm fields in repsect to the provided configuration.
@@ -461,7 +461,7 @@ func TestTagPersistence(t *testing.T) {
 // a file of length n with optional random data using API Store function,
 // and checks the output of API Retrieve function on the same instance.
 // This is a regression test for issue
-// https://github.com/ethersphere/go-ethereum/issues/639
+// https://github.com/holisticode/go-ethereum/issues/639
 // where pyramid chunker did not split correctly files with lengths that
 // are edge cases for chunk and tree parameters, depending whether there
 // is a tree chunk with only one data chunk and how the compress functionality

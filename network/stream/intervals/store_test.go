@@ -19,7 +19,7 @@ package intervals
 import (
 	"testing"
 
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/state"
 )
 
 // TestInmemoryStore tests basic functionality of InmemoryStore.

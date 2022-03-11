@@ -26,9 +26,9 @@ import (
 	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/spancontext"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/spancontext"
+	"github.com/holisticode/swarm/storage"
 	"github.com/opentracing/opentracing-go"
 	olog "github.com/opentracing/opentracing-go/log"
 )

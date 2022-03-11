@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/storage"
 )
 
 func testFileSystem(t *testing.T, f func(*FileSystem, bool)) {

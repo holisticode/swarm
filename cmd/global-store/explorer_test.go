@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/storage/mock/explorer"
-	mockRPC "github.com/ethersphere/swarm/storage/mock/rpc"
+	"github.com/holisticode/swarm/storage/mock/explorer"
+	mockRPC "github.com/holisticode/swarm/storage/mock/rpc"
 )
 
 // TestExplorer validates basic chunk explorer functionality by storing

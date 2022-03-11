@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethersphere/swarm/storage/mock"
-	"github.com/ethersphere/swarm/storage/mock/explorer"
+	"github.com/holisticode/swarm/storage/mock"
+	"github.com/holisticode/swarm/storage/mock/explorer"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

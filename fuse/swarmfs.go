@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/swarm/api"
+	"github.com/holisticode/swarm/api"
 )
 
 const (

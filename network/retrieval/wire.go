@@ -16,7 +16,7 @@
 
 package retrieval
 
-import "github.com/ethersphere/swarm/storage"
+import "github.com/holisticode/swarm/storage"
 
 // RetrieveRequest is the protocol msg for chunk retrieve requests
 type RetrieveRequest struct {

@@ -24,11 +24,11 @@
 //
 // Documentation can be found in the README file.
 //
-// For the current state and roadmap of pss development please see https://github.com/ethersphere/swarm/wiki/swarm-dev-progress.
+// For the current state and roadmap of pss development please see https://github.com/holisticode/swarm/wiki/swarm-dev-progress.
 //
-// Please report issues on https://github.com/ethersphere/go-ethereum
+// Please report issues on https://github.com/holisticode/go-ethereum
 //
-// Feel free to ask questions in https://gitter.im/ethersphere/pss
+// Feel free to ask questions in https://gitter.im/holisticode/pss
 //
 // TOPICS
 //

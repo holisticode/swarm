@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/storage/feed/lookup"
+	"github.com/holisticode/swarm/storage/feed/lookup"
 )
 
 type AlgorithmInfo struct {

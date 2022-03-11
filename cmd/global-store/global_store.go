@@ -24,9 +24,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm/storage/mock"
-	"github.com/ethersphere/swarm/storage/mock/db"
-	"github.com/ethersphere/swarm/storage/mock/mem"
+	"github.com/holisticode/swarm/storage/mock"
+	"github.com/holisticode/swarm/storage/mock/db"
+	"github.com/holisticode/swarm/storage/mock/mem"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

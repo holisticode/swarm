@@ -2,9 +2,9 @@ package client
 
 import (
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/storage"
 )
 
 type Bzz struct {

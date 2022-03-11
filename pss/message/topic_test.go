@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethersphere/swarm/pss/message"
+	"github.com/holisticode/swarm/pss/message"
 )
 
 // test that topic conversion functions give predictable results

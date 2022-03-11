@@ -30,15 +30,15 @@ import (
 
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/simulation"
-	"github.com/ethersphere/swarm/p2p/protocols"
-	"github.com/ethersphere/swarm/pot"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/localstore"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/simulation"
+	"github.com/holisticode/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/pot"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/localstore"
+	"github.com/holisticode/swarm/testutil"
 )
 
 var timeout = 90 * time.Second
@@ -538,10 +538,10 @@ func getChunks(store chunk.Store) (chunks map[string]struct{}, err error) {
 /*
 BenchmarkHistoricalStream measures syncing time after two nodes connect.
 
-go test -v github.com/ethersphere/swarm/network/stream/v2 -run="^$" -bench BenchmarkHistoricalStream -benchmem -loglevel 0
+go test -v github.com/holisticode/swarm/network/stream/v2 -run="^$" -bench BenchmarkHistoricalStream -benchmem -loglevel 0
 goos: darwin
 goarch: amd64
-pkg: github.com/ethersphere/swarm/network/stream/v2
+pkg: github.com/holisticode/swarm/network/stream/v2
 BenchmarkHistoricalStream/1000-chunks-8        	      10	 133564663 ns/op	148289188 B/op	  233646 allocs/op
 BenchmarkHistoricalStream/2000-chunks-8        	       5	 290056259 ns/op	316599452 B/op	  541507 allocs/op
 BenchmarkHistoricalStream/10000-chunks-8       	       1	1714618578 ns/op	1791108672 B/op	 4133564 allocs/op

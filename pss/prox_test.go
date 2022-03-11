@@ -18,12 +18,12 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/simulation"
-	"github.com/ethersphere/swarm/pot"
-	"github.com/ethersphere/swarm/pss/message"
-	"github.com/ethersphere/swarm/state"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/simulation"
+	"github.com/holisticode/swarm/pot"
+	"github.com/holisticode/swarm/pss/message"
+	"github.com/holisticode/swarm/state"
+	"github.com/holisticode/swarm/testutil"
 )
 
 // needed to make the enode id of the receiving node available to the handler for triggers

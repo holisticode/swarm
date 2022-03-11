@@ -34,9 +34,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/api"
-	"github.com/ethersphere/swarm/api/client"
-	"github.com/ethersphere/swarm/spancontext"
+	"github.com/holisticode/swarm/api"
+	"github.com/holisticode/swarm/api/client"
+	"github.com/holisticode/swarm/spancontext"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/pborman/uuid"
 	cli "gopkg.in/urfave/cli.v1"

@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/localstore"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/localstore"
 )
 
 const (

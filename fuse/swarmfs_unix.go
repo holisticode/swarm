@@ -31,8 +31,8 @@ import (
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/api"
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/api"
+	"github.com/holisticode/swarm/log"
 )
 
 var (

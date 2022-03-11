@@ -19,7 +19,7 @@ package swap
 import (
 	log "github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/network"
+	"github.com/holisticode/swarm/network"
 )
 
 const (

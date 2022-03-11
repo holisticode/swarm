@@ -28,8 +28,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/storage/mock"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/storage/mock"
 )
 
 // GlobalStore is rpc.Client that connects to a centralized mock store.

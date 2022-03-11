@@ -14,11 +14,11 @@ Routing of messages is done using swarm's own kademlia routing. Optionally routi
 
 Pss is intended for messages of limited size, typically a couple of Kbytes at most. The messages themselves can be anything at all; complex data structures or non-descript byte sequences.
 
-For the current state and roadmap of pss development please see https://github.com/ethersphere/swarm/wiki/swarm-dev-progress.
+For the current state and roadmap of pss development please see https://github.com/holisticode/swarm/wiki/swarm-dev-progress.
 
-Please report issues on https://github.com/ethersphere/go-ethereum
+Please report issues on https://github.com/holisticode/go-ethereum
 
-Feel free to ask questions in https://gitter.im/ethersphere/pss
+Feel free to ask questions in https://gitter.im/holisticode/pss
 
 ## STATUS OF THIS DOCUMENT
 

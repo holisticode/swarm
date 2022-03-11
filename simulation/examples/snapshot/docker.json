@@ -2,7 +2,7 @@
   "defaultAdapter": {
     "type": "docker",
     "config": {
-      "image": "ethersphere/swarm:edge",
+      "image": "holisticode/swarm:edge",
       "daemonAddr": "unix:///var/run/docker.sock"
     }
   },

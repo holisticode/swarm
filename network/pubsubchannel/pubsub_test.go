@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network/pubsubchannel"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network/pubsubchannel"
+	"github.com/holisticode/swarm/testutil"
 )
 
 func init() {

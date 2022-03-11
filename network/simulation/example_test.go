@@ -25,8 +25,8 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/simulation"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/simulation"
 )
 
 // Every node can have a Kademlia associated using the node bucket under

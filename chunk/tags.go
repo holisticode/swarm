@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/swarm/sctx"
+	"github.com/holisticode/swarm/sctx"
 )
 
 var (

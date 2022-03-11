@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/p2p/enr"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/network/capability"
+	"github.com/holisticode/swarm/network/capability"
 )
 
 // BzzAddr implements the PeerAddr interface

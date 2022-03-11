@@ -27,10 +27,10 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/log"
-	p2ptest "github.com/ethersphere/swarm/p2p/testing"
-	"github.com/ethersphere/swarm/pot"
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/log"
+	p2ptest "github.com/holisticode/swarm/p2p/testing"
+	"github.com/holisticode/swarm/pot"
+	"github.com/holisticode/swarm/state"
 )
 
 func newHiveTester(params *HiveParams, n int, store state.Store) (*bzzTester, *Hive, error) {

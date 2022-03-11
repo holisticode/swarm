@@ -19,8 +19,8 @@ package storage
 import (
 	"context"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/network/timeouts"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/network/timeouts"
 )
 
 // LNetStore is a wrapper of NetStore, which implements the chunk.Store interface. It is used only by the FileStore,

@@ -11,7 +11,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm"
+	"github.com/holisticode/swarm"
 )
 
 // ExecAdapter can manage local exec nodes

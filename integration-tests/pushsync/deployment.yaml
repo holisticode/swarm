@@ -13,7 +13,7 @@ namespaces:
 helmRepos:
   stable: "https://kubernetes-charts.storage.googleapis.com"
   incubator: "http://storage.googleapis.com/kubernetes-charts-incubator"
-  ethersphere: "https://raw.githubusercontent.com/ethersphere/helm-charts-artifacts/master/"
+  holisticode: "https://raw.githubusercontent.com/holisticode/helm-charts-artifacts/master/"
 
 apps:
   # Private cluster
@@ -22,7 +22,7 @@ apps:
     namespace: "pushsync"
     name: "swarm-private"
     enabled: true
-    chart: "ethersphere/swarm-private"
+    chart: "holisticode/swarm-private"
     version: "0.0.5"
     description: "(Private) Swarm cluster"
     valuesFiles:
@@ -37,7 +37,7 @@ apps:
     #namespace: "pushsync"
     #name: "private-smoke-a"
     #enabled: true
-    #chart: "ethersphere/smoke"
+    #chart: "holisticode/smoke"
     #version: "0.0.2"
     #description: "(Private) Smoke test: Upload and sync"
     #valuesFiles:

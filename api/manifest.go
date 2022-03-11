@@ -29,9 +29,9 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/feed"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/feed"
 )
 
 const (

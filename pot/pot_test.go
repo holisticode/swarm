@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/log"
 )
 
 const (

@@ -28,11 +28,11 @@
 //  	"context"
 //  	"fmt"
 //  	"os"
-//  	pss "github.com/ethersphere/swarm/pss/client"
-//  	"github.com/ethersphere/swarm/p2p/protocols"
+//  	pss "github.com/holisticode/swarm/pss/client"
+//  	"github.com/holisticode/swarm/p2p/protocols"
 //  	"github.com/ethereum/go-ethereum/p2p"
-//  	"github.com/ethersphere/swarm/pot"
-//  	"github.com/ethersphere/swarm/log"
+//  	"github.com/holisticode/swarm/pot"
+//  	"github.com/holisticode/swarm/log"
 //  )
 //
 //  type FooMsg struct {

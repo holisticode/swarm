@@ -6,7 +6,7 @@ Swarm is a distributed storage platform and content distribution service, a nati
 
 ## New Bee client
 
-In the effort to release a production-ready version of Swarm, the Swarm dev team has migrated their effort to build the [new Bee client](https://github.com/ethersphere/bee), a brand-new implementation of Swarm. The main reason for this switch was the availability of a more mature networking layer (libp2p) and the secondary reason being that the insight gained from developing Swarm taught us many lessons which can be implemented best from scratch. While Bee does not currently expose every feature in the original Swarm client, development is happening at lightspeed and soon, it will surpass Swarm in functionality and stability!
+In the effort to release a production-ready version of Swarm, the Swarm dev team has migrated their effort to build the [new Bee client](https://github.com/holisticode/bee), a brand-new implementation of Swarm. The main reason for this switch was the availability of a more mature networking layer (libp2p) and the secondary reason being that the insight gained from developing Swarm taught us many lessons which can be implemented best from scratch. While Bee does not currently expose every feature in the original Swarm client, development is happening at lightspeed and soon, it will surpass Swarm in functionality and stability!
 
 Please refer to [Swarm webpage](https://ethswarm.org) for more information about the state of the Bee client and to [the Bee documentation](https://docs.ethswarm.org) for info on installing and using the new client.
 
@@ -28,9 +28,9 @@ The Swarm team is reachable on [Mattermost](http://beehive.ethswarm.org/).
 Join the Swarm Orange Lounge on [Telegram](https://t.me/joinchat/GoVG8RHYjUpD_-bEnLC4EQ).
 Follow us on [Twitter](https://twitter.com/ethswarm).
 
-[![Travis](https://travis-ci.org/ethersphere/swarm.svg?branch=master)](https://travis-ci.org/ethersphere/swarm)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethersphere/orange-lounge?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![](https://godoc.org/github.com/nathany/looper?status.svg)](https://godoc.org/github.com/ethersphere/swarm/)
+[![Travis](https://travis-ci.org/holisticode/swarm.svg?branch=master)](https://travis-ci.org/holisticode/swarm)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/holisticode/orange-lounge?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![](https://godoc.org/github.com/nathany/looper?status.svg)](https://godoc.org/github.com/holisticode/swarm/)
 
 
 ## Table of Contents  <!-- omit in toc -->
@@ -62,7 +62,7 @@ It's recommended to use Go 1.14 to build Swarm.
 To simply compile the `swarm` binary without a `GOPATH`:
 
 ```bash
-$ git clone https://github.com/ethersphere/swarm
+$ git clone https://github.com/holisticode/swarm
 $ cd swarm
 $ make swarm
 ```
@@ -72,8 +72,8 @@ You will find the binary under `./build/bin/swarm`.
 To build a vendored `swarm` using `go get` you must have `GOPATH` set. Then run:
 
 ```bash
-$ go get -d github.com/ethersphere/swarm
-$ go install github.com/ethersphere/swarm/cmd/swarm
+$ go get -d github.com/holisticode/swarm
+$ go install github.com/holisticode/swarm/cmd/swarm
 ```
 
 ## Running Swarm
@@ -126,7 +126,7 @@ Swarm documentation can be found at [https://swarm-guide.readthedocs.io](https:/
 
 ## Docker
 
-Swarm container images are available at Docker Hub: [ethersphere/swarm](https://hub.docker.com/r/ethersphere/swarm)
+Swarm container images are available at Docker Hub: [holisticode/swarm](https://hub.docker.com/r/holisticode/swarm)
 
 ### Docker tags
 
@@ -143,7 +143,7 @@ All Swarm command line arguments are supported and can be sent as part of the CM
 Running a Swarm container from the command line
 
 ```bash
-$ docker run -it ethersphere/swarm \
+$ docker run -it holisticode/swarm \
                             --debug \
                             --verbosity 4
 ```
@@ -152,7 +152,7 @@ $ docker run -it ethersphere/swarm \
 Running a Swarm container with custom ENS endpoint
 
 ```bash
-$ docker run -it ethersphere/swarm \
+$ docker run -it holisticode/swarm \
                             --ens-api http://1.2.3.4:8545 \
                             --debug \
                             --verbosity 4
@@ -161,7 +161,7 @@ $ docker run -it ethersphere/swarm \
 Running a Swarm container with metrics enabled
 
 ```bash
-$ docker run -it ethersphere/swarm \
+$ docker run -it holisticode/swarm \
                             --debug \
                             --metrics \
                             --metrics.influxdb.export \
@@ -176,7 +176,7 @@ $ docker run -it ethersphere/swarm \
 Running a Swarm container with tracing and pprof server enabled
 
 ```bash
-$ docker run -it ethersphere/swarm \
+$ docker run -it holisticode/swarm \
                             --debug \
                             --tracing \
                             --tracing.endpoint 127.0.0.1:6831 \
@@ -191,7 +191,7 @@ Running a Swarm container with a custom data directory mounted from a volume and
 ```bash
 $ docker run -it -v $PWD/hostdata:/data \
                  -v $PWD/password:/password \
-                 ethersphere/swarm \
+                 holisticode/swarm \
                             --datadir /data \
                             --password /password \
                             --debug \
@@ -204,12 +204,12 @@ $ docker run -it -v $PWD/hostdata:/data \
 
 We assume that you have Go v1.11 installed, and `GOPATH` is set.
 
-You must have your working copy under `$GOPATH/src/github.com/ethersphere/swarm`.
+You must have your working copy under `$GOPATH/src/github.com/holisticode/swarm`.
 
 Most likely you will be working from your fork of `swarm`, let's say from `github.com/nirname/swarm`. Clone or move your fork into the right place:
 
 ```bash
-$ git clone git@github.com:nirname/swarm.git $GOPATH/src/github.com/ethersphere/swarm
+$ git clone git@github.com:nirname/swarm.git $GOPATH/src/github.com/holisticode/swarm
 ```
 
 
@@ -289,7 +289,7 @@ Swarm supports an InfluxDB exporter. Consult the help section to learn about the
 $ swarm --help | grep metrics
 ```
 
-We use Grafana and InfluxDB to visualise metrics reported by Swarm. We keep our Grafana dashboards under version control at https://github.com/ethersphere/grafana-dashboards. You could use them or design your own.
+We use Grafana and InfluxDB to visualise metrics reported by Swarm. We keep our Grafana dashboards under version control at https://github.com/holisticode/grafana-dashboards. You could use them or design your own.
 
 We have built a tool to help with automatic start of Grafana and InfluxDB and provisioning of dashboards at https://github.com/nonsense/stateth, which requires that you have Docker installed.
 
@@ -298,7 +298,7 @@ Once you have `stateth` installed, and you have Docker running locally, you have
 1. Run `stateth` and keep it running in the background
 
 ```bash
-$ stateth --rm --grafana-dashboards-folder $GOPATH/src/github.com/ethersphere/grafana-dashboards --influxdb-database metrics
+$ stateth --rm --grafana-dashboards-folder $GOPATH/src/github.com/holisticode/grafana-dashboards --influxdb-database metrics
 ```
 
 2. Run `swarm` with at least the following params:
@@ -327,7 +327,7 @@ The Swarm public gateway can be found at https://swarm-gateways.net and is alway
 
 You can find a few reference Swarm decentralised applications at: https://swarm-gateways.net/bzz:/swarmapps.eth
 
-Their source code can be found at: https://github.com/ethersphere/swarm-dapps
+Their source code can be found at: https://github.com/holisticode/swarm-dapps
 
 ## Contributing
 
@@ -336,7 +336,7 @@ anyone on the internet, and are grateful for even the smallest of fixes!
 
 If you'd like to contribute to Swarm, please fork, fix, commit and send a pull request
 for the maintainers to review and merge into the main code base. If you wish to submit more
-complex changes though, please check up with the core devs first on [our Swarm gitter channel](https://gitter.im/ethersphere/orange-lounge)
+complex changes though, please check up with the core devs first on [our Swarm gitter channel](https://gitter.im/holisticode/orange-lounge)
 to ensure those changes are in line with the general philosophy of the project and/or get some
 early feedback which can make both your efforts much lighter as well as our review and merge
 procedures quick and simple.
@@ -346,7 +346,7 @@ Please make sure your contributions adhere to our coding guidelines:
  * Code must adhere to the official Go [formatting](https://golang.org/doc/effective_go.html#formatting) guidelines (i.e. uses [gofmt](https://golang.org/cmd/gofmt/)).
  * Code must be documented adhering to the official Go [commentary](https://golang.org/doc/effective_go.html#commentary) guidelines.
  * Pull requests need to be based on and opened against the `master` branch.
- * [Code review guidelines](https://github.com/ethersphere/swarm/blob/master/docs/Code-Review-Guidelines.md).
+ * [Code review guidelines](https://github.com/holisticode/swarm/blob/master/docs/Code-Review-Guidelines.md).
  * Commit messages should be prefixed with the package(s) they modify.
    * E.g. "fuse: ignore default manifest entry"
 

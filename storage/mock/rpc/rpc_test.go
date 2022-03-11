@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm/storage/mock/mem"
-	"github.com/ethersphere/swarm/storage/mock/test"
+	"github.com/holisticode/swarm/storage/mock/mem"
+	"github.com/holisticode/swarm/storage/mock/test"
 )
 
 // TestDBStore is running test for a GlobalStore

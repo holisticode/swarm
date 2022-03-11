@@ -25,10 +25,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/feed/lookup"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/feed/lookup"
 )
 
 type Handler struct {

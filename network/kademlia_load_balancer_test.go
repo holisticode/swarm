@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network/capability"
-	"github.com/ethersphere/swarm/pot"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network/capability"
+	"github.com/holisticode/swarm/pot"
 )
 
 // TestAddedNodes checks that when adding a node it is assigned the correct number of uses.

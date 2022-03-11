@@ -7,13 +7,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/stream"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/localstore"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/stream"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/localstore"
 
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm/state"
+	"github.com/holisticode/swarm/state"
 )
 
 // TestInspectorPeerStreams validates that response from RPC peerStream has at

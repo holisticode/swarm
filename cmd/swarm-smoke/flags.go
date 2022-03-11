@@ -16,7 +16,7 @@
 package main
 
 import (
-	cliflags "github.com/ethersphere/swarm/internal/flags"
+	cliflags "github.com/holisticode/swarm/internal/flags"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

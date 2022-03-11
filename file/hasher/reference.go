@@ -1,7 +1,7 @@
 package hasher
 
 import (
-	"github.com/ethersphere/swarm/file"
+	"github.com/holisticode/swarm/file"
 )
 
 // ReferenceHasher is the source-of-truth implementation of the swarm file hashing algorithm

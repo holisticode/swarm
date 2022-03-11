@@ -27,8 +27,8 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/mock"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/mock"
 )
 
 // MockStore creates NodeStore instances from provided GlobalStorer,

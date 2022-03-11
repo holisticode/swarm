@@ -23,9 +23,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	gethmetrics "github.com/ethereum/go-ethereum/metrics"
-	cliflags "github.com/ethersphere/swarm/internal/flags"
-	"github.com/ethersphere/swarm/metrics/influxdb"
-	"github.com/ethersphere/swarm/tracing"
+	cliflags "github.com/holisticode/swarm/internal/flags"
+	"github.com/holisticode/swarm/metrics/influxdb"
+	"github.com/holisticode/swarm/tracing"
 
 	"github.com/ethereum/go-ethereum/log"
 

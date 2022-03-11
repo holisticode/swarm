@@ -52,8 +52,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethersphere/swarm/internal/build"
-	sv "github.com/ethersphere/swarm/version"
+	"github.com/holisticode/swarm/internal/build"
+	sv "github.com/holisticode/swarm/version"
 )
 
 var (

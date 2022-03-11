@@ -34,8 +34,8 @@ import (
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/naoina/toml"
 
-	bzzapi "github.com/ethersphere/swarm/api"
-	"github.com/ethersphere/swarm/network"
+	bzzapi "github.com/holisticode/swarm/api"
+	"github.com/holisticode/swarm/network"
 )
 
 var (
@@ -104,7 +104,7 @@ var tomlSettings = toml.Config{
 	MissingField: func(rt reflect.Type, field string) error {
 		link := ""
 		if unicode.IsUpper(rune(rt.Name()[0])) && rt.PkgPath() != "main" {
-			link = ", check github.com/ethersphere/swarm/api/config.go for available fields"
+			link = ", check github.com/holisticode/swarm/api/config.go for available fields"
 		}
 		return fmt.Errorf("field '%s' is not defined in %s%s", field, rt.String(), link)
 	},

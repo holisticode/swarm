@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/api"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/sctx"
-	"github.com/ethersphere/swarm/spancontext"
-	"github.com/ethersphere/swarm/storage/pin"
+	"github.com/holisticode/swarm/api"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/sctx"
+	"github.com/holisticode/swarm/spancontext"
+	"github.com/holisticode/swarm/storage/pin"
 	"github.com/pborman/uuid"
 )
 

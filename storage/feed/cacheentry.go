@@ -21,7 +21,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/storage"
 )
 
 const (

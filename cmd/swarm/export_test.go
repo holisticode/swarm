@@ -33,9 +33,9 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethersphere/swarm"
-	"github.com/ethersphere/swarm/cmd/testdata"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm"
+	"github.com/holisticode/swarm/cmd/testdata"
+	"github.com/holisticode/swarm/testutil"
 )
 
 const (

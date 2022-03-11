@@ -32,7 +32,7 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/util"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/storage/mock"
+	"github.com/holisticode/swarm/storage/mock"
 )
 
 // GlobalStore contains the LevelDB database that is storing

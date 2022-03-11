@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/pss/message"
+	"github.com/holisticode/swarm/pss/message"
 )
 
 const timeout = 2 * time.Second

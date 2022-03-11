@@ -6,7 +6,7 @@ import (
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	"github.com/ethersphere/swarm/internal/build"
+	"github.com/holisticode/swarm/internal/build"
 )
 
 func TestDockerAdapterBuild(t *testing.T) {

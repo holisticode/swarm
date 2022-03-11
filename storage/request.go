@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/swarm/network/timeouts"
+	"github.com/holisticode/swarm/network/timeouts"
 
 	"github.com/ethereum/go-ethereum/p2p/enode"
 )

@@ -42,7 +42,7 @@ import (
 	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/tracing"
+	"github.com/holisticode/swarm/tracing"
 )
 
 // MsgPauser can be used to pause run execution

@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/chunk"
-	tagtesting "github.com/ethersphere/swarm/chunk/testing"
-	"github.com/ethersphere/swarm/shed"
+	"github.com/holisticode/swarm/chunk"
+	tagtesting "github.com/holisticode/swarm/chunk/testing"
+	"github.com/holisticode/swarm/shed"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

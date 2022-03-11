@@ -22,9 +22,9 @@ import (
 	"strconv"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/storage/feed/lookup"
+	"github.com/holisticode/swarm/storage/feed/lookup"
 
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/storage"
 )
 
 // ID uniquely identifies an update on the network.

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethersphere/swarm/internal/build"
-	"github.com/ethersphere/swarm/simulation"
+	"github.com/holisticode/swarm/internal/build"
+	"github.com/holisticode/swarm/simulation"
 )
 
 func TestDockerSnapshotFromFile(t *testing.T) {

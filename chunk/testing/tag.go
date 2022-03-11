@@ -19,7 +19,7 @@ package testing
 import (
 	"testing"
 
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/chunk"
 )
 
 // CheckTag checks the first tag in the api struct to be in a certain state

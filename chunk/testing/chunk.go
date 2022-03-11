@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/chunk"
 )
 
 func init() {

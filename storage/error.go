@@ -16,7 +16,7 @@
 
 package storage
 
-import "github.com/ethersphere/swarm/chunk"
+import "github.com/holisticode/swarm/chunk"
 
 const (
 	ErrInit = iota

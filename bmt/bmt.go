@@ -26,8 +26,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethersphere/swarm/file"
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/file"
+	"github.com/holisticode/swarm/log"
 )
 
 /*

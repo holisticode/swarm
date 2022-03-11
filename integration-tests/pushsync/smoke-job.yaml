@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
       - name: smoke
-        image: ethersphere/swarm:edge-alltools
+        image: holisticode/swarm:edge-alltools
         imagePullPolicy: "Always"
         command: ["/run-smoke.sh"]
         resources:

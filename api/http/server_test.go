@@ -42,14 +42,14 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethersphere/swarm/api"
-	"github.com/ethersphere/swarm/chunk"
-	chunktesting "github.com/ethersphere/swarm/chunk/testing"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/feed"
-	"github.com/ethersphere/swarm/storage/feed/lookup"
-	"github.com/ethersphere/swarm/storage/pin"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/api"
+	"github.com/holisticode/swarm/chunk"
+	chunktesting "github.com/holisticode/swarm/chunk/testing"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/feed"
+	"github.com/holisticode/swarm/storage/feed/lookup"
+	"github.com/holisticode/swarm/storage/pin"
+	"github.com/holisticode/swarm/testutil"
 )
 
 func init() {

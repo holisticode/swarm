@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/pss/internal/ticker"
+	"github.com/holisticode/swarm/pss/internal/ticker"
 	"github.com/tilinna/clock"
 )
 

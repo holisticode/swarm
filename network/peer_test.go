@@ -30,9 +30,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/p2p/protocols"
-	p2ptest "github.com/ethersphere/swarm/p2p/testing"
-	"github.com/ethersphere/swarm/pot"
+	"github.com/holisticode/swarm/p2p/protocols"
+	p2ptest "github.com/holisticode/swarm/p2p/testing"
+	"github.com/holisticode/swarm/pot"
 )
 
 /***

@@ -22,7 +22,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/storage"
 )
 
 // Feed represents a particular user's stream of updates on a topic

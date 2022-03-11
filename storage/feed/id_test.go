@@ -3,7 +3,7 @@ package feed
 import (
 	"testing"
 
-	"github.com/ethersphere/swarm/storage/feed/lookup"
+	"github.com/holisticode/swarm/storage/feed/lookup"
 )
 
 func getTestID() *ID {

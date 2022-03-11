@@ -37,12 +37,12 @@ import (
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm"
-	"github.com/ethersphere/swarm/api"
-	swarmhttp "github.com/ethersphere/swarm/api/http"
-	"github.com/ethersphere/swarm/internal/cmdtest"
-	"github.com/ethersphere/swarm/storage/pin"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm"
+	"github.com/holisticode/swarm/api"
+	swarmhttp "github.com/holisticode/swarm/api/http"
+	"github.com/holisticode/swarm/internal/cmdtest"
+	"github.com/holisticode/swarm/storage/pin"
+	"github.com/holisticode/swarm/testutil"
 )
 
 func init() {

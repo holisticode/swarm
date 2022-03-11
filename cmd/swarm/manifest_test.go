@@ -24,9 +24,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ethersphere/swarm/api"
-	swarm "github.com/ethersphere/swarm/api/client"
-	swarmhttp "github.com/ethersphere/swarm/api/http"
+	"github.com/holisticode/swarm/api"
+	swarm "github.com/holisticode/swarm/api/client"
+	swarmhttp "github.com/holisticode/swarm/api/http"
 )
 
 // TestManifestChange tests manifest add, update and remove

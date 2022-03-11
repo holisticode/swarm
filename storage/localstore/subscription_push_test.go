@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/chunk"
 )
 
 // TestDB_SubscribePush uploads some chunks before and after

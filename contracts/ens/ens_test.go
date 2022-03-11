@@ -25,8 +25,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethersphere/swarm/contracts/ens/contract"
-	"github.com/ethersphere/swarm/contracts/ens/fallback_contract"
+	"github.com/holisticode/swarm/contracts/ens/contract"
+	"github.com/holisticode/swarm/contracts/ens/fallback_contract"
 )
 
 var (

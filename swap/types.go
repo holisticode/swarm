@@ -18,7 +18,7 @@ package swap
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/swap/int256"
+	"github.com/holisticode/swarm/swap/int256"
 )
 
 // ChequeParams encapsulate all cheque parameters

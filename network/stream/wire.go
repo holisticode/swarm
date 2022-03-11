@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/storage"
 )
 
 // StreamProvider interface provides a lightweight abstraction that allows an easily-pluggable

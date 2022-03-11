@@ -23,7 +23,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethersphere/swarm/swap/int256"
+	"github.com/holisticode/swarm/swap/int256"
 )
 
 // encodeForSignature encodes the cheque params in the format used in the signing procedure

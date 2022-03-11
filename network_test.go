@@ -33,11 +33,11 @@ import (
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethersphere/swarm/api"
-	"github.com/ethersphere/swarm/network/simulation"
-	"github.com/ethersphere/swarm/sctx"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/api"
+	"github.com/holisticode/swarm/network/simulation"
+	"github.com/holisticode/swarm/sctx"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/testutil"
 )
 
 var (

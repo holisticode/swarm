@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	bmttestutil "github.com/ethersphere/swarm/bmt/testutil"
-	"github.com/ethersphere/swarm/testutil"
+	bmttestutil "github.com/holisticode/swarm/bmt/testutil"
+	"github.com/holisticode/swarm/testutil"
 	"golang.org/x/crypto/sha3"
 )
 

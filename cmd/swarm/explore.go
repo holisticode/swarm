@@ -23,8 +23,8 @@ import (
 	"os"
 
 	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

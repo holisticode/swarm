@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/pss/message"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/pss/message"
 	"github.com/tilinna/clock"
 )
 

@@ -33,13 +33,13 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/contracts/swap"
-	contract "github.com/ethersphere/swarm/contracts/swap"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/p2p/protocols"
-	"github.com/ethersphere/swarm/state"
-	"github.com/ethersphere/swarm/swap/chain"
-	"github.com/ethersphere/swarm/swap/int256"
+	"github.com/holisticode/swarm/contracts/swap"
+	contract "github.com/holisticode/swarm/contracts/swap"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/state"
+	"github.com/holisticode/swarm/swap/chain"
+	"github.com/holisticode/swarm/swap/int256"
 )
 
 // ErrInvalidChequeSignature indicates the signature on the cheque was invalid
@@ -485,7 +485,7 @@ func (s *Swap) processAndVerifyCheque(cheque *Cheque, p *Peer) (*int256.Uint256,
 
 	if err := p.setLastReceivedCheque(cheque); err != nil {
 		p.logger.Error(HandleChequeAction, "error while saving last received cheque", "err", err.Error())
-		// TODO: what do we do here? Related issue: https://github.com/ethersphere/swarm/issues/1515
+		// TODO: what do we do here? Related issue: https://github.com/holisticode/swarm/issues/1515
 	}
 
 	return actualAmount, nil

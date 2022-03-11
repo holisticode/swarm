@@ -21,8 +21,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/pss/message"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/pss/message"
 )
 
 // PubSub implements the pushsync.PubSub interface using pss

@@ -1,7 +1,7 @@
 package hasher
 
 import (
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/testutil"
 )
 
 const (

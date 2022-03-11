@@ -18,7 +18,7 @@ package outbox
 import (
 	"time"
 
-	"github.com/ethersphere/swarm/pss/message"
+	"github.com/holisticode/swarm/pss/message"
 )
 
 type outboxMsg struct {

@@ -18,7 +18,7 @@
 package main
 
 import (
-	"github.com/ethersphere/swarm/network"
+	"github.com/holisticode/swarm/network"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

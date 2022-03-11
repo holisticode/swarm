@@ -8,7 +8,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/spancontext"
+	"github.com/holisticode/swarm/spancontext"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

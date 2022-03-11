@@ -23,9 +23,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethersphere/swarm/bmt"
-	bmttestutil "github.com/ethersphere/swarm/bmt/testutil"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/bmt"
+	bmttestutil "github.com/holisticode/swarm/bmt/testutil"
+	"github.com/holisticode/swarm/testutil"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethersphere/swarm/bmt"
-	"github.com/ethersphere/swarm/file"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/bmt"
+	"github.com/holisticode/swarm/file"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/testutil"
 	"golang.org/x/crypto/sha3"
 )
 

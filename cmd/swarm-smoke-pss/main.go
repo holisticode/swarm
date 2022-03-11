@@ -23,11 +23,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	gethmetrics "github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/metrics/influxdb"
+	"github.com/holisticode/swarm/metrics/influxdb"
 
-	"github.com/ethersphere/swarm/internal/flags"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/tracing"
+	"github.com/holisticode/swarm/internal/flags"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/tracing"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

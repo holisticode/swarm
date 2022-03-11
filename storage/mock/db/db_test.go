@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethersphere/swarm/storage/mock/test"
+	"github.com/holisticode/swarm/storage/mock/test"
 )
 
 // TestDBStore is running a test.MockStore tests

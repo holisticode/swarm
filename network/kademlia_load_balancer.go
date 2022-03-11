@@ -18,9 +18,9 @@ package network
 import (
 	"bytes"
 
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network/pubsubchannel"
-	"github.com/ethersphere/swarm/network/resourceusestats"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network/pubsubchannel"
+	"github.com/holisticode/swarm/network/resourceusestats"
 )
 
 // KademliaBackend is the required interface of KademliaLoadBalancer.

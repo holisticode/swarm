@@ -3,8 +3,8 @@ package http
 import (
 	"context"
 
-	"github.com/ethersphere/swarm/api"
-	"github.com/ethersphere/swarm/sctx"
+	"github.com/holisticode/swarm/api"
+	"github.com/holisticode/swarm/sctx"
 )
 
 type uriKey struct{}

@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
 )
 
 /*

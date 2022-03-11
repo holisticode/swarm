@@ -33,7 +33,7 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
 	"github.com/ethereum/go-ethereum/rlp"
-	p2ptest "github.com/ethersphere/swarm/p2p/testing"
+	p2ptest "github.com/holisticode/swarm/p2p/testing"
 )
 
 // handshake message type

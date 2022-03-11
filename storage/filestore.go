@@ -22,8 +22,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/storage/localstore"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/storage/localstore"
 )
 
 /*

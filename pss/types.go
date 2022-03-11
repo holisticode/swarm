@@ -21,7 +21,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethersphere/swarm/pss/message"
+	"github.com/holisticode/swarm/pss/message"
 )
 
 var (

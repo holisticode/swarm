@@ -21,7 +21,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ethersphere/swarm/chunk"
+	"github.com/holisticode/swarm/chunk"
 )
 
 // TestExportImport constructs two databases, one to put and export

@@ -35,14 +35,14 @@ import (
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/network"
-	bv "github.com/ethersphere/swarm/network/bitvector"
-	"github.com/ethersphere/swarm/network/stream/intervals"
-	"github.com/ethersphere/swarm/network/timeouts"
-	"github.com/ethersphere/swarm/p2p/protocols"
-	"github.com/ethersphere/swarm/state"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/network"
+	bv "github.com/holisticode/swarm/network/bitvector"
+	"github.com/holisticode/swarm/network/stream/intervals"
+	"github.com/holisticode/swarm/network/timeouts"
+	"github.com/holisticode/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/state"
+	"github.com/holisticode/swarm/storage"
 )
 
 const (

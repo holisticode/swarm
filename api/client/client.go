@@ -40,11 +40,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/api"
-	swarmhttp "github.com/ethersphere/swarm/api/http"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/spancontext"
-	"github.com/ethersphere/swarm/storage/feed"
+	"github.com/holisticode/swarm/api"
+	swarmhttp "github.com/holisticode/swarm/api/http"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/spancontext"
+	"github.com/holisticode/swarm/storage/feed"
 	"github.com/pborman/uuid"
 )
 

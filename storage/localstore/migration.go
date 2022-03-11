@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/shed"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/shed"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

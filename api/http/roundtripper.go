@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ethersphere/swarm/log"
+	"github.com/holisticode/swarm/log"
 )
 
 /*
@@ -30,7 +30,7 @@ Usage:
 
 import (
  "github.com/ethereum/go-ethereum/common/httpclient"
- "github.com/ethersphere/swarm/api/http"
+ "github.com/holisticode/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

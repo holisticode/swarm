@@ -32,9 +32,9 @@ import (
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/rpc"
-	contract "github.com/ethersphere/swarm/contracts/swap"
-	p2ptest "github.com/ethersphere/swarm/p2p/testing"
-	"github.com/ethersphere/swarm/swap/int256"
+	contract "github.com/holisticode/swarm/contracts/swap"
+	p2ptest "github.com/holisticode/swarm/p2p/testing"
+	"github.com/holisticode/swarm/swap/int256"
 	colorable "github.com/mattn/go-colorable"
 )
 

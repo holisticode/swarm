@@ -22,7 +22,7 @@ import (
 	"html/template"
 	"path"
 
-	"github.com/ethersphere/swarm/api"
+	"github.com/holisticode/swarm/api"
 )
 
 type htmlListData struct {
@@ -483,7 +483,7 @@ const baseTemplate = `
 					</a>
 				</div>
 				<div class="footerItem">
-					<a href="https://github.com/ethersphere" target="_blank" rel="noopener noreferrer">
+					<a href="https://github.com/holisticode" target="_blank" rel="noopener noreferrer">
 						<div class="footerItemLogo">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -516,7 +516,7 @@ const baseTemplate = `
 							</svg>
 						</div>
 						<div class="footerItemLink">
-							github.com/ethersphere
+							github.com/holisticode
 						</div>
 					</a>
 				</div>

@@ -34,14 +34,14 @@ import (
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/timeouts"
-	"github.com/ethersphere/swarm/p2p/protocols"
-	"github.com/ethersphere/swarm/spancontext"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/swap"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/timeouts"
+	"github.com/holisticode/swarm/p2p/protocols"
+	"github.com/holisticode/swarm/spancontext"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/swap"
 )
 
 var (
@@ -362,7 +362,7 @@ func (r *Retrieval) handleChunkDelivery(ctx context.Context, p *Peer, msg *Chunk
 	depth := r.kad.NeighbourhoodDepth()
 	var mode chunk.ModePut
 	// chunks within the area of responsibility should always sync
-	// https://github.com/ethersphere/go-ethereum/pull/1282#discussion_r269406125
+	// https://github.com/holisticode/go-ethereum/pull/1282#discussion_r269406125
 	if po >= depth || peerPO < po {
 		mode = chunk.ModePutSync
 	} else {

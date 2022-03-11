@@ -27,14 +27,14 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethersphere/swarm/api"
-	swarmhttp "github.com/ethersphere/swarm/api/http"
-	chunktesting "github.com/ethersphere/swarm/chunk/testing"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/feed"
-	"github.com/ethersphere/swarm/storage/feed/lookup"
-	"github.com/ethersphere/swarm/storage/pin"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/api"
+	swarmhttp "github.com/holisticode/swarm/api/http"
+	chunktesting "github.com/holisticode/swarm/chunk/testing"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/feed"
+	"github.com/holisticode/swarm/storage/feed/lookup"
+	"github.com/holisticode/swarm/storage/pin"
+	"github.com/holisticode/swarm/testutil"
 )
 
 func serverFunc(api *api.API, pinAPI *pin.API) swarmhttp.TestServer {
@@ -58,7 +58,7 @@ func TestClientUploadDownloadRawEncrypted(t *testing.T) {
 
 	if testutil.RaceEnabled {
 		t.Skip("flaky with -race on Travis")
-		// See: https://github.com/ethersphere/go-ethereum/issues/1254
+		// See: https://github.com/holisticode/go-ethereum/issues/1254
 	}
 
 	srv := swarmhttp.NewTestSwarmServer(t, serverFunc, nil, nil)

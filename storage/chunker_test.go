@@ -24,8 +24,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/testutil"
 	"golang.org/x/crypto/sha3"
 )
 

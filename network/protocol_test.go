@@ -29,11 +29,11 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/p2p/enr"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/network/capability"
-	"github.com/ethersphere/swarm/p2p/protocols"
-	p2ptest "github.com/ethersphere/swarm/p2p/testing"
-	"github.com/ethersphere/swarm/pot"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/network/capability"
+	"github.com/holisticode/swarm/p2p/protocols"
+	p2ptest "github.com/holisticode/swarm/p2p/testing"
+	"github.com/holisticode/swarm/pot"
+	"github.com/holisticode/swarm/testutil"
 )
 
 const (

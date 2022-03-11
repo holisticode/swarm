@@ -23,7 +23,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/pot"
+	"github.com/holisticode/swarm/pot"
 )
 
 // Peer wraps BzzPeer and embeds Kademlia overlay connectivity driver

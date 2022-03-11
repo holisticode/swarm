@@ -26,12 +26,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/simulation"
-	"github.com/ethersphere/swarm/pot"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/simulation"
+	"github.com/holisticode/swarm/pot"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/testutil"
 )
 
 var (

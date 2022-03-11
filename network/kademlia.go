@@ -29,12 +29,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/network/capability"
-	"github.com/ethersphere/swarm/network/pubsubchannel"
-	"github.com/ethersphere/swarm/pot"
-	sv "github.com/ethersphere/swarm/version"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/network/capability"
+	"github.com/holisticode/swarm/network/pubsubchannel"
+	"github.com/holisticode/swarm/pot"
+	sv "github.com/holisticode/swarm/version"
 )
 
 /*

@@ -33,13 +33,13 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/network/retrieval"
-	p2ptest "github.com/ethersphere/swarm/p2p/testing"
-	"github.com/ethersphere/swarm/storage"
-	"github.com/ethersphere/swarm/storage/localstore"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/network/retrieval"
+	p2ptest "github.com/holisticode/swarm/p2p/testing"
+	"github.com/holisticode/swarm/storage"
+	"github.com/holisticode/swarm/storage/localstore"
+	"github.com/holisticode/swarm/testutil"
 )
 
 func init() {

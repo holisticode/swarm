@@ -29,10 +29,10 @@ import (
 	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/pss"
-	"github.com/ethersphere/swarm/pss/message"
-	"github.com/ethersphere/swarm/testutil"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/pss"
+	"github.com/holisticode/swarm/pss/message"
+	"github.com/holisticode/swarm/testutil"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

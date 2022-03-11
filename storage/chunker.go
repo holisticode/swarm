@@ -25,9 +25,9 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethersphere/swarm/chunk"
-	"github.com/ethersphere/swarm/log"
-	"github.com/ethersphere/swarm/spancontext"
+	"github.com/holisticode/swarm/chunk"
+	"github.com/holisticode/swarm/log"
+	"github.com/holisticode/swarm/spancontext"
 	opentracing "github.com/opentracing/opentracing-go"
 	olog "github.com/opentracing/opentracing-go/log"
 )
@@ -86,7 +86,7 @@ type JoinerParams struct {
 	ChunkerParams
 	addr   Address
 	getter Getter
-	// TODO: there is a bug, so depth can only be 0 today, see: https://github.com/ethersphere/go-ethereum/issues/344
+	// TODO: there is a bug, so depth can only be 0 today, see: https://github.com/holisticode/go-ethereum/issues/344
 	depth int
 	ctx   context.Context
 }

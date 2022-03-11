@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethersphere/swarm/network"
+	"github.com/holisticode/swarm/network"
 )
 
 // TestSyncSubscriptionsDiff validates the output of syncSubscriptionsDiff

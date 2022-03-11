@@ -21,7 +21,7 @@ import (
 	"strconv"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/swarm/storage/feed/lookup"
+	"github.com/holisticode/swarm/storage/feed/lookup"
 )
 
 // Query is used to specify constraints when performing an update lookup

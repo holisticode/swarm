@@ -1,6 +1,6 @@
 # Swarm Architecture Diagram
 
-![Swarm Architecture Diagram](https://raw.githubusercontent.com/ethersphere/swarm-guide/master/contents/img/high-level-components.svg?sanitize=true "Swarm Architecture Diagram")
+![Swarm Architecture Diagram](https://raw.githubusercontent.com/holisticode/swarm-guide/master/contents/img/high-level-components.svg?sanitize=true "Swarm Architecture Diagram")
 
 This diagram represents a high-level description of the most important components in Swarm.
 

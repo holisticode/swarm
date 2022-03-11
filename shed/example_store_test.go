@@ -26,8 +26,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethersphere/swarm/shed"
-	"github.com/ethersphere/swarm/storage"
+	"github.com/holisticode/swarm/shed"
+	"github.com/holisticode/swarm/storage"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

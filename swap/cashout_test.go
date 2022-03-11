@@ -22,9 +22,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethersphere/swarm/network"
-	"github.com/ethersphere/swarm/swap/chain"
-	"github.com/ethersphere/swarm/swap/int256"
+	"github.com/holisticode/swarm/network"
+	"github.com/holisticode/swarm/swap/chain"
+	"github.com/holisticode/swarm/swap/int256"
 )
 
 // TestContractIntegration tests a end-to-end cheque interaction.

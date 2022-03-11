@@ -202,14 +202,14 @@ Message exchange examples:
 ======
 
 Initial handshake - client queries server for stream states<br>
-![handshake](https://raw.githubusercontent.com/ethersphere/swarm/master/docs/diagrams/stream-handshake.png)
+![handshake](https://raw.githubusercontent.com/holisticode/swarm/master/docs/diagrams/stream-handshake.png)
 <br>
 GetRange (bounded) - client requests a bounded range within a stream<br>
-![bounded-range](https://raw.githubusercontent.com/ethersphere/swarm/master/docs/diagrams/stream-bounded.png)
+![bounded-range](https://raw.githubusercontent.com/holisticode/swarm/master/docs/diagrams/stream-bounded.png)
 <br>
 GetRange (unbounded) - client requests an unbounded range (specifies only `From` parameter)<br>
-![unbounded-range](https://raw.githubusercontent.com/ethersphere/swarm/master/docs/diagrams/stream-unbounded.png)
+![unbounded-range](https://raw.githubusercontent.com/holisticode/swarm/master/docs/diagrams/stream-unbounded.png)
 <br>
 GetRange (no roundtrip) - client requests an unbounded or bounded range with no roundtrip configured<br>
-![unbounded-range](https://raw.githubusercontent.com/ethersphere/swarm/master/docs/diagrams/stream-no-roundtrip.png)
+![unbounded-range](https://raw.githubusercontent.com/holisticode/swarm/master/docs/diagrams/stream-no-roundtrip.png)
 

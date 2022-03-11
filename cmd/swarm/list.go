@@ -23,7 +23,7 @@ import (
 	"text/tabwriter"
 
 	"github.com/ethereum/go-ethereum/cmd/utils"
-	swarm "github.com/ethersphere/swarm/api/client"
+	swarm "github.com/holisticode/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 
